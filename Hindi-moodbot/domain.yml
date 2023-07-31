@@ -1,0 +1,30 @@
+version: "3.1"
+
+intents:
+- affirm
+- bot_challenge
+- deny
+- goodbye
+- greet
+- mood_great
+- mood_unhappy
+
+responses:
+  utter_greet:
+  - text: अरे! आप कैसे हैं?
+  utter_cheer_up:
+  - image: https://i.imgur.com/nGF1K8f.jpg
+    text: 'यहां आपको उत्साहित करने के लिए कुछ है:'
+  utter_did_that_help:
+  - text: क्या इससे आपको मदद मिली?
+  utter_happy:
+  - text: बढ़िया, जारी रखो!
+  utter_goodbye:
+  - text: अलविदा
+  utter_iamabot:
+  - text: मैं एक बॉट हूं, जो रासा द्वारा संचालित है।
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

@@ -1,0 +1,39 @@
+version: "3.1"
+
+stories:
+
+- story: Introduction to Corona
+  steps:
+  - intent: intro_corona
+  - action: utter_intro_corona
+
+- story: Spreading of Corona
+  steps:
+  - intent: spread
+  - action: utter_spread
+
+- story: Symptoms of Corona
+  steps:
+  - intent: symptoms
+  - action: utter_symptoms
+
+- story: Treatments for Corona
+  steps:
+  - intent: treatments
+  - action: utter_treatments
+
+- story: Government Regulations
+  steps:
+  - intent: government_reg
+  - action: utter_government_reg
+
+- story: Hospital Visit
+  steps:
+  - intent: hospital_visit
+  - action: utter_hospital_visit
+
+- story: Understanding Pandamic
+  steps:
+  - intent: pandamic
+  - action: utter_pandamic
+
